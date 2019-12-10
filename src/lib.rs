@@ -151,8 +151,8 @@ impl Universe {
     }
 
     pub fn new() -> Universe {
-        let width = 128;
-        let height = 128;
+        let width = 49;
+        let height = 40;
 
         let cells = (0..width * height)
             .map(|i| {
